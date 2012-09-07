@@ -62,7 +62,7 @@ module Deck
     end
 
     # <!-- Theme CSS files (menu swaps these out) -->
-    stylesheet public_asset("deck.js/themes/style/swiss.css"), :id=>"style-theme-link"
+    stylesheet public_asset("deck.js/themes/style/web-2.0.css"), :id=>"style-theme-link"
 
     stylesheet public_asset("coderay.css")
     stylesheet public_asset("tables.css")
