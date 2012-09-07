@@ -63,7 +63,8 @@ module Deck
 
     # <!-- Theme CSS files (menu swaps these out) -->
     stylesheet public_asset("deck.js/themes/style/web-2.0.css"), :id=>"style-theme-link"
-    stylesheet public_asset("deck.js/themes/transition/fade.css"), :id=>"style-theme-link"
+    #stylesheet public_asset("deck.js/themes/transition/fade.css"), :id=>"style-theme-link"
+    stylesheet public_asset("deck.js/themes/transition/horizontal-slide.css"), :id=>"style-theme-link"
 
     stylesheet public_asset("coderay.css")
     stylesheet public_asset("tables.css")
